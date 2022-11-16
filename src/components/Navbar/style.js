@@ -37,6 +37,5 @@ export const Navbarcon = styled.div`
   :hover{
     cursor: pointer;
     font-weight: 700;
-    text-decoration: underline;
   }
  `

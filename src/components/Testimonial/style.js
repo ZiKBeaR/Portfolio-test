@@ -41,13 +41,16 @@ line-height: 150%;
 export const Small = styled.div`
 margin-left: 7%;
 opacity: 0.5;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
 `
 
 export const Up = styled.img`
 box-sizing: border-box;
 position: absolute;
 left: 20%;
-top: 250%;
+top: 280%;
 color: #584949;
 opacity: 0.9;
 `
@@ -55,7 +58,7 @@ export const Down = styled.img`
 box-sizing: border-box;
 position: absolute;
 left: 75%;
-top: 265%;
+top: 295%;
 color: #584949;
 opacity: 0.9;
 `
@@ -64,7 +67,7 @@ export const Leftbtn = styled.div`
 box-sizing: border-box;
 position: absolute;
 left: 61%;
-top: 267%;
+top: 295%;
 :hover {
   cursor: pointer;
   transform: scale(1.05);
@@ -74,7 +77,7 @@ export const Rightbtn = styled.div`
 box-sizing: border-box;
 position: absolute;
 left: 66%;
-top: 267%;
+top: 295%;
 :hover {
   cursor: pointer;
   transform: scale(1.05);

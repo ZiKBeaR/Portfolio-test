@@ -55,7 +55,6 @@ color: #FF3535;
 margin-right: 5%;
 :hover{
   cursor: pointer;
-  text-decoration: underline;
   background: #FF3535;
 border-radius: 50px;
 font-weight: 700;
@@ -79,7 +78,6 @@ line-height: 150%;
 color: #FF3535;
 :hover{
   cursor: pointer;
-  text-decoration: underline;
   background: #FF3535;
 border-radius: 50px;
 font-weight: 700;
