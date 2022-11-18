@@ -28,6 +28,10 @@ export const Navbarcon = styled.div`
  align-items: center;
  justify-content: space-between;
  padding-right: 5%;
+
+.link {
+ text-decoration: none;
+}
  `
 
  export const Pagename = styled.div`
@@ -39,3 +43,5 @@ export const Navbarcon = styled.div`
     font-weight: 700;
   }
  `
+
+
