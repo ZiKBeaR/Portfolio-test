@@ -1,8 +1,8 @@
 import React from 'react'
-import { Bigtext, Borderredbtn, Btns, Container, Foto, Homepagecon, Left, Leftellipse, Redbtn, Right, Rightellipse, Smalltext } from './style'
+import { Bigtext, Borderredbtn, Btns, Container, Foto, Homepagecon, Left, Redbtn, Right, Smalltext } from './style'
 import photo from '../../assets/photo.png'
-import circlel from '../../assets/leftellipse.png'
-import circler from '../../assets/rightellipse.png'
+// import circlel from '../../assets/leftellipse.png'
+// import circler from '../../assets/rightellipse.png'
 
 
 const Homepage = () => {
@@ -21,9 +21,10 @@ const Homepage = () => {
       </Left>
 
       <Right>
-       <Foto src={photo}></Foto>  
-       <Leftellipse src={circlel}></Leftellipse>
-       <Rightellipse src={circler}></Rightellipse>      
+       <Foto src={photo}></Foto>
+       {/* <Leftellipse src={circlel} ></Leftellipse>
+       <Rightellipse src={circler}  ></Rightellipse>   */}
+      
       </Right>
 
     </Homepagecon>

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Aboutcon, Bigtext, Bold, Container, Design, Emailaddress, Flexbeetwen, Hello, Info, Language, Large, Left, Message, Nameage, Procent, Progres, Rectangleback, Rectanglephoto, Rectangleup, Right, Skill, Specialist, User, Userdate, Userinfo } from './style'
+import { Aboutcon, Bigtext, Bold, Container, Design, Emailaddress, Flexbeetwen, Hello, Info, Language, Large, Left, Message, Nameage, Procent, Progres, Rectanglephoto, Right, Skill, Specialist, User, Userdate, Userinfo } from './style'
 import rectanglephoto from '../../assets/rectanglephoto.png'
-import rectangleback from '../../assets/rectangleback.png'
-import rectangleup from '../../assets/rectangleup.png'
+// import rectangleback from '../../assets/rectangleback.png'
+// import rectangleup from '../../assets/rectangleup.png'
 import procent from '../../assets/procent.png'
 
 const About = () => {
@@ -13,9 +13,9 @@ const About = () => {
         <Bigtext>About</Bigtext>
         <Info>
           <Left>
-            <Rectangleback src={rectangleback}></Rectangleback>
+            {/* <Rectangleback src={rectangleback}></Rectangleback> */}
             <Rectanglephoto src={rectanglephoto}></Rectanglephoto>
-            <Rectangleup src={rectangleup}></Rectangleup>
+            {/* <Rectangleup src={rectangleup}></Rectangleup> */}
           </Left>
           <Right>
             <Hello>Hello!</Hello>
@@ -41,12 +41,12 @@ const About = () => {
 
         <Design>
           <Bold>Design skills</Bold>
-          <Flexbeetwen><Large>Web design</Large><Procent>85%</Procent></Flexbeetwen>
-          <Progres src={procent}></Progres>
-          <Flexbeetwen><Large>Graphic design</Large><Procent>85%</Procent></Flexbeetwen>
-          <Progres src={procent}></Progres>
-          <Flexbeetwen><Large>Motion design</Large><Procent>85%</Procent></Flexbeetwen>
-          <Progres src={procent}></Progres>
+            <Flexbeetwen><Large>Web design</Large><Procent>85%</Procent></Flexbeetwen>
+            <Progres src={procent}></Progres>
+            <Flexbeetwen><Large>Graphic design</Large><Procent>85%</Procent></Flexbeetwen>
+            <Progres src={procent}></Progres>
+            <Flexbeetwen><Large>Motion design</Large><Procent>85%</Procent></Flexbeetwen>
+            <Progres src={procent}></Progres>
         </Design>
         
         <Language>

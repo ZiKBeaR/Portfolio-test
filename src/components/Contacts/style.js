@@ -6,6 +6,16 @@ export const Contactcon = styled.div`
 background: #1E1E1E;
 display: flex;
 padding: 5%;
+
+@media only screen and (max-width: 1024px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 425px) {
+  padding-left: 0;
+}
 `
 export const Left = styled.div`
 flex: 1;
@@ -33,6 +43,14 @@ margin-bottom: 4%;
 :hover {
   border-color: #FF3535;
 }
+
+
+@media only screen and (max-width: 425px) {
+  width: 300px;
+}
+@media only screen and (max-width: 320px) {
+  width: 250px
+}
 `
 export const Email = styled.input`
 width: 499px;
@@ -49,6 +67,14 @@ margin-bottom: 4%;
 :hover {
   border-color: #FF3535;
 }
+
+
+@media only screen and (max-width: 425px) {
+  width: 300px;
+}
+@media only screen and (max-width: 320px) {
+  width: 250px
+}
 `
 export const Message = styled.textarea`
 width: 499px;
@@ -64,6 +90,13 @@ line-height: 150%;
 margin-bottom: 4%;
 :hover {
   border-color: #FF3535;
+}
+
+@media only screen and (max-width: 425px) {
+  width: 300px;
+}
+@media only screen and (max-width: 320px) {
+  width: 250px
 }
 `
 export const Send = styled.div`
@@ -88,6 +121,10 @@ font-size: 18px;
 line-height: 150%;
 color: white;
 }
+
+@media only screen and (max-width: 425px) {
+  margin-top: 5%;
+}
 `
 
 export const Right = styled.div`
@@ -95,10 +132,27 @@ flex: 1;
 display: flex;
 align-items: center;
 justify-content: center;
+
+
+@media only screen and (max-width: 1024px) {
+  margin-top: 5%;
+}
 `
 export const Mapp = styled.img`
 :hover {
   cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+  width: 319px;
+  height: 380px;
+}
+@media only screen and (max-width: 320px) {
+  width: 259px;
+  height: 320px;
+  margin-left: 5%;
 }
 ` 
 export const Endbar = styled.div`

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bold, Container, Divlarge, Large, Test, Works } from './style'
+import { Appels, Bold, Container, Divlarge, Large, Test, Web, Works, Yellowtree } from './style'
 import treetree from '../../assets/treetree.png'
 import yellowbckg from '../../assets/yellowbckg.png'
 import treeonmountain from '../../assets/treeonmountain.png'
@@ -14,7 +14,7 @@ const Portfolio = () => {
     <Container>
       <Bold>Portfolio</Bold>
       <Divlarge>
-        <Large>Web design</Large>
+        <Web>Web design</Web>
         <Large>Graphic design</Large>
         <Large>Motion design</Large>
       </Divlarge>
@@ -23,11 +23,11 @@ const Portfolio = () => {
        <Test src={treetree}></Test> 
        <Test src={yellowbckg}></Test>
        <Test src={treeonmountain}></Test>
-       <Test src={yellowtree}></Test>
+       <Yellowtree src={yellowtree}></Yellowtree>
        <Test src={pumpkin}></Test>
        <Test src={cofee}></Test>
        <Test src={spagetti}></Test>
-       <Test src={appels}></Test>
+       <Appels src={appels}></Appels>
              
     </Works>
 

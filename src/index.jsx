@@ -17,7 +17,7 @@ root.render(
    <Routesportfolio />
    {/* <Navbar /> */}
    <Homepage />
-   <About />
+    <About />
    <Portfolio />
    <Testimonial />
    <Contact />
